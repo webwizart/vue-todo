@@ -1,4 +1,4 @@
-# first-time
+# first-time Vue.js
 
 ## Project setup
 ```
