@@ -46,7 +46,7 @@ export default {
   },
   created() {
     axios
-      .get("https://jsonplaceholder.typicode.com/todos?_limit=5")
+      .get("https://jsonplaceholder.typicode.com/todos?_limit=30")
       .then(res => (this.todos = res.data))
       // eslint-disable-next-line 
       .catch(err => console.log(err));
